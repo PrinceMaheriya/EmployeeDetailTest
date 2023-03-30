@@ -51,8 +51,8 @@ namespace EmployeeDetailTest
         [TestMethod]
         public void DeleteEmployeeData()
         {
-           var employeeId = 1;
-           WpfApp1.Helper.EmployeeService.DeleteEmployeeData(employeeId);
+            var employeeId = 1;
+            WpfApp1.Helper.EmployeeService.DeleteEmployeeData(employeeId);
         }
 
         [TestMethod]
@@ -71,4 +71,5 @@ namespace EmployeeDetailTest
         }
 
     }
+
 }
